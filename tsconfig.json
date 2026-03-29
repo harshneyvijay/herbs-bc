@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "module": "NodeNext",
+    "target": "ES2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "types": ["node", "mocha"]
+  },
+  "include": [
+    "hardhat.config.js",
+    "test",
+    "scripts",
+    "contracts"
+  ]
+}
+
+
+// /* Based on https://github.com/tsconfig/bases/blob/501da2bcd640cf95c95805783e1012b992338f28/bases/node22.json */
+// {
+//   "compilerOptions": {
+//     "lib": ["es2023"],
+//     "module": "node16",
+//     "target": "es2022",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "moduleResolution": "node16",
+//     "outDir": "dist"
+//   }
+// }
