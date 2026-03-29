@@ -20,3 +20,7 @@
 /coverage
 
 .env
+
+
+typechain/
+.vscode/
